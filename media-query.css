@@ -1,0 +1,143 @@
+/* --------- Tablets (768px to 1024px) --------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: 45vh;
+  }
+
+  header h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .main-container .product-nav {
+    margin: 30px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .sortby-option {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .product-container {
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .product {
+    width: 45%;
+    height: auto;
+  }
+
+  .product img {
+    height: auto;
+  }
+
+  .product .product-detail p,
+  .product .product-detail button {
+    font-size: 1.4em;
+  }
+
+  .error-page img {
+    height: 250px;
+  }
+
+  .error-page h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .error-page p {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .error-page button {
+    font-size: 1.3em;
+  }
+}
+
+/* --------- Mobiles (max-width: 767px) --------- */
+@media screen and (max-width: 767px) {
+  header {
+    height: 30vh;
+  }
+
+  header h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .main-container .product-nav {
+    margin: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .sortby-option {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .main-container .product-nav p {
+    font-size: 1.2em;
+  }
+
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .product {
+    width: 100%;
+    height: auto;
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+
+  .product .product-detail {
+    margin: 10px;
+    gap: 10px;
+  }
+
+  .product .product-detail p,
+  .product .product-detail button {
+    font-size: 1.2em;
+  }
+
+  .error-page {
+    padding-bottom: 10em;
+  }
+
+  .error-page img {
+    height: 180px;
+  }
+
+  .error-page h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .error-page p {
+    font-size: 1em;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .error-page button {
+    font-size: 1.2em;
+    padding: 8px 20px;
+  }
+}
