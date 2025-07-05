@@ -6,7 +6,7 @@ A fully responsive web application that dynamically loads and displays products 
 
 ## 🔗 Live Preview
 
-> Coming soon (or deploy using GitHub Pages / Vercel)
+> https://yatirohit017.github.io/e-commerce-skateboard
 
 
 ---
