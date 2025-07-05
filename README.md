@@ -8,11 +8,6 @@ A fully responsive web application that dynamically loads and displays products 
 
 > Coming soon (or deploy using GitHub Pages / Vercel)
 
----
-
-## 📸 Screenshot
-
-> ![Preview of Product Page](https://via.placeholder.com/1200x600?text=Product+Showcase+UI)
 
 ---
 
