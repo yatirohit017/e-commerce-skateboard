@@ -91,24 +91,25 @@
   }
 
   .product-container {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     padding: 0 10px;
   }
 
   .product {
-    width: 100%;
+    width: calc(50% - 20px); 
     height: auto;
   }
 
   .product img {
-    width: 100%;
-    height: auto;
+    /* width: 70%; */
+    height: 200px;
   }
 
   .product .product-detail {
-    margin: 10px;
+    margin: 5px;
     gap: 10px;
   }
 
